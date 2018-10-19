@@ -13,4 +13,6 @@ class ModelVisual(models.Model):
     url = models.URLField(max_length=500)
     slug = models.SlugField()
     scales=models.CharField(max_length=50, default='1 1 1')
+    rotation=models.CharField(max_length=50, default='0 0 0')
+    position=models.CharField(max_length=50, default='0 0 0')
     quest = models.ForeignKey(Quest, verbose_name="quest", on_delete=models.CASCADE)
