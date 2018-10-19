@@ -25,12 +25,12 @@ MEDIA_URL = '/media/'
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '&3+p#3@fa4hy*=78euv%l4+2^su(x+^@*(42#2ez#n6-&(-qe1'
+SECRET_KEY = os.environ['SECRET']
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool(os.environ['DEBUG'])
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['iecquest.herokuapp.com']
 
 
 # Application definition
