@@ -16,6 +16,8 @@ import dj_database_url
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+STATIC_ROOT=os.path.join(BASE_DIR, 'static')
+
 MEDIA_ROOT  = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
@@ -26,7 +28,7 @@ MEDIA_URL = '/media/'
 SECRET_KEY = '&3+p#3@fa4hy*=78euv%l4+2^su(x+^@*(42#2ez#n6-&(-qe1'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = bool(os.environ['DEBUG'])
 
 ALLOWED_HOSTS = []
 
