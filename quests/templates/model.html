@@ -12,53 +12,13 @@
 <body style='margin : 0px; overflow: hidden;'>
 	<a-scene embedded arjs='sourceType: webcam; detectionMode: mono_and_matrix; matrixCodeType: 3x3;'>
         <a-assets>
-
             <a-asset-item id="model" src="{{model.url}}">
-{% comment %} 
-            <a-asset-item id="enigma_obj" src="https://raw.githubusercontent.com/mkhusid/ar-quest/master/views/pages/models/enigma.obj">
-            <a-asset-item id="enigma_mtl" src="https://raw.githubusercontent.com/mkhusid/ar-quest/master/views/pages/models/enigma.mtl">
-
-            <a-asset-item id="sextant_obj" src="https://raw.githubusercontent.com/mkhusid/ar-quest/master/views/pages/models/sextant.obj">
-            <a-asset-item id="sextant_mtl" src="https://raw.githubusercontent.com/mkhusid/ar-quest/master/views/pages/models/sextant.mtl"> 
-
-            <a-asset-item id="termostat_obj" src="https://raw.githubusercontent.com/mkhusid/ar-quest/master/views/pages/models/termostat.obj">
-            <a-asset-item id="termostat_mtl" src="https://raw.githubusercontent.com/mkhusid/ar-quest/master/views/pages/models/termostat.mtl">
-
-            <a-asset-item id="tomograf_obj" src="https://raw.githubusercontent.com/mkhusid/ar-quest/master/views/pages/models/tomograf.obj">
-            <a-asset-item id="tomograf_mtl" src="https://raw.githubusercontent.com/mkhusid/ar-quest/master/views/pages/models/tomograf.mtl">
-
-            <a-asset-item id="ethane_obj" src="https://raw.githubusercontent.com/mkhusid/ar-quest/master/views/pages/models/ethane.obj">
-            <a-asset-item id="ethane_mtl" src="https://raw.githubusercontent.com/mkhusid/ar-quest/master/views/pages/models/ethane.mtl">
-                
-            <a-asset-item id="klorofilly_obj" src="https://raw.githubusercontent.com/mkhusid/ar-quest/master/views/pages/models/klorofylli.obj">
-            <a-asset-item id="klorofilly_mtl" src="https://raw.githubusercontent.com/mkhusid/ar-quest/master/views/pages/models/klorofylli.mtl">                 {% endcomment %}
         </a-assets>
 
 		<a-marker preset="hiro">
             <a-obj-model src="#model" scale="{{model.scales}}"  ></a-obj-model>
 
         </a-marker>
-{% comment %}         
-        <a-marker type="pattern" url="https://raw.githubusercontent.com/mkhusid/ar-quest/master/views/pages/markers/p1.patt">
-            <a-obj-model src="#enigma_obj"    scale="1 1 1 "  ></a-obj-model>
-        </a-marker>
-
-        <a-marker type="pattern" url="https://raw.githubusercontent.com/mkhusid/ar-quest/master/views/pages/markers/p2.patt">
-            <a-obj-model src="#ethane_obj" mtl="#ethane"  scale="1 1 1 "  ></a-obj-model>
-        </a-marker>
-
-        <a-marker type="pattern" url="https://raw.githubusercontent.com/mkhusid/ar-quest/master/views/pages/markers/p3.patt">
-            <a-obj-model src="#termostat_obj" mtl="#termostat_mtl"   scale="1 1 1 "  ></a-obj-model>
-        </a-marker>
-
-        <a-marker type="pattern" url="https://raw.githubusercontent.com/mkhusid/ar-quest/master/views/pages/markers/p4.patt">
-            <a-obj-model src="#sextant_obj" mtl="#sextant_mtl"  scale="1 1 1 "  ></a-obj-model>
-        </a-marker>
-
-        <a-marker type="pattern" url="https://raw.githubusercontent.com/mkhusid/ar-quest/master/views/pages/markers/p5.patt">
-            <a-obj-model src="#tomograf_obj" mtl="#tomograf_mtl"  scale="1 1 1 "  ></a-obj-model>
-        </a-marker>
- {% endcomment %}
 		<a-entity camera></a-entity>
 	</a-scene>
 </body>

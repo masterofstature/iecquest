@@ -13,6 +13,5 @@ def quest_detail(request, slug):
 
 def model_detail(request, slug, model_slug):
     model = ModelVisual.objects.get(slug=model_slug)
-    print(model.model.url)
     return render(request, 'model.html', { 'model': model })
 
