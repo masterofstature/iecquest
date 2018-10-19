@@ -1,0 +1,7 @@
+{{quest.title}}
+
+<ul>
+{% for model in quest.modelvisual_set.all %}
+    <li><a href="{% url 'model_detail' quest.slug model.slug %}">{{ model.slug }}</a></li>
+{% endfor %}
+</ul>
