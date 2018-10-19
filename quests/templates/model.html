@@ -13,7 +13,7 @@
 	<a-scene embedded arjs='sourceType: webcam; detectionMode: mono_and_matrix; matrixCodeType: 3x3;'>
         <a-assets>
 
-            <a-asset-item id="model" src="{{model.model.url}}">
+            <a-asset-item id="model" src="{{model.url}}">
 {% comment %} 
             <a-asset-item id="enigma_obj" src="https://raw.githubusercontent.com/mkhusid/ar-quest/master/views/pages/models/enigma.obj">
             <a-asset-item id="enigma_mtl" src="https://raw.githubusercontent.com/mkhusid/ar-quest/master/views/pages/models/enigma.mtl">
@@ -35,7 +35,7 @@
         </a-assets>
 
 		<a-marker preset="hiro">
-            <a-obj-model src="#model"    scale="1 1 1 "  ></a-obj-model>
+            <a-obj-model src="#model" scale="{{model.scales}}"  ></a-obj-model>
 
         </a-marker>
 {% comment %}         

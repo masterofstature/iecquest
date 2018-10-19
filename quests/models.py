@@ -9,7 +9,8 @@ class Quest(models.Model):
     title = models.CharField(max_length=50)
 
 class ModelVisual(models.Model):
-    model = models.FileField(upload_to='media')
+    model = models.FileField(upload_to='media', null=True, blank=True)
     url = models.URLField(max_length=500)
     slug = models.SlugField()
+    scales=models.CharField(max_length=50, default='1 1 1')
     quest = models.ForeignKey(Quest, verbose_name="quest", on_delete=models.CASCADE)
