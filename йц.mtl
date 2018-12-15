@@ -1,0 +1,83 @@
+# File produced by Open Asset Import Library (http://www.assimp.sf.net)
+# (assimp v3.1.187496374)
+
+newmtl Vehicle_Body
+Kd 0.423529 0.368627 0.34902
+Ka 0 0 0
+Ks 1 1 1
+Ke 0 0 0
+Ns 1024
+illum 2
+
+newmtl Vehicle_Interior_Geometry
+Kd 0.454902 0.14902 0.0156863
+Ka 0 0 0
+Ks 1 1 1
+Ke 0 0 0
+Ns 1024
+illum 2
+
+newmtl JoinedMaterial_#8
+Kd 0.808 0.824 0.839
+Ka 0 0 0
+Ks 1 1 1
+Ke 0 0 0
+Ns 1024
+illum 2
+
+newmtl JoinedMaterial_#4
+Kd 0.0156863 0.0156863 0.0156863
+Ka 0 0 0
+Ks 1 1 1
+Ke 0 0 0
+Ns 1024
+illum 2
+
+newmtl Windows_Glass
+Kd 0.776 0.827 0.769
+Ka 0 0 0
+Ks 1 1 1
+Ke 0 0 0
+Ns 1024
+illum 2
+
+newmtl break_lights
+Kd 0.831373 0.0156863 0.0156863
+Ka 0 0 0
+Ks 1 1 1
+Ke 0 0 0
+Ns 1024
+illum 2
+
+newmtl Ford Focus_mso Slot #11
+Kd 0 0 0
+Ka 0.2 0.2 0.2
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+d 1
+illum 1
+
+newmtl Mirror
+Kd 0.865 0.91 0.866
+Ka 0 0 0
+Ks 1 1 1
+Ke 0 0 0
+Ns 1024
+illum 2
+
+newmtl Headlights
+Kd 1 1 1
+Ka 0 0 0
+Ks 1 1 1
+Ke 0 0 0
+Ns 1024
+illum 2
+
+newmtl JoinedMaterial_#12
+Kd 0.75 0.75 0.75
+Ka 0 0 0
+Ks 1 1 1
+Ke 0 0 0
+Ns 1024
+illum 2
+
