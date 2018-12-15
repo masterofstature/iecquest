@@ -1,0 +1,27 @@
+# File produced by Open Asset Import Library (http://www.assimp.sf.net)
+# (assimp v3.1.187496374)
+
+newmtl DefaultMaterial
+Kd 0.8 0.8 0.8
+illum 1
+
+newmtl armedia_marker_material0
+Kd 1 0 0
+Ka 1 0 0
+Ks 0 0 0
+Ke 0 0 0
+d 1
+Ns 2
+illum 2
+map_Kd ..\..\..\Program Files (x86)\ARPlugin 2.3 (FREE) Max\arplugin.bin\library\marker_armedia_preview.jpg
+
+newmtl armedia_marker_material1
+Kd 1 0 0
+Ka 1 0 0
+Ks 0 0 0
+Ke 0 0 0
+d 1
+Ns 2
+illum 2
+map_Kd ..\..\..\Program Files (x86)\ARPlugin 2.3 (FREE) Max\arplugin.bin\library\marker_fantasy.jpg
+
